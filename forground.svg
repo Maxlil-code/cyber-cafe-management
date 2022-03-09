@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-forground">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="forground" clip-path="url(#clip-forground)">
+    <rect width="512" height="512" fill="rgba(255,255,255,0)"/>
+    <text id="C" transform="translate(117.653 464.952) rotate(-20)" fill="#fff" font-size="470" font-family="SegoeScript-Bold, Segoe Script" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+  </g>
+</svg>
