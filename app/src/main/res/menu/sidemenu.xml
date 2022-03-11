@@ -33,7 +33,6 @@
                     android:icon="@drawable/ic_settings"
                     android:title="Settings"/>
 
-
             </menu>
 
         </item>
@@ -50,6 +49,9 @@
                 android:title="Share"
                 android:icon="@drawable/share_vector"/>
 
+            <item android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/Logout"/>
         </menu>
 
     </item>

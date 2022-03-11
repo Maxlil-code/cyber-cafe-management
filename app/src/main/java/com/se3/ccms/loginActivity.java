@@ -23,7 +23,7 @@ public class loginActivity extends AppCompatActivity {
 
 
     public void onLoginClick(View view) {
-        startActivity(new Intent(this, registerActivity.class));
+        startActivity(new Intent(this, bookActivity.class));
         overridePendingTransition(R.anim.slide_in_right, R.anim.stay);
         finish();
     }
@@ -39,10 +39,3 @@ public class loginActivity extends AppCompatActivity {
 
 }
 
-<com.google.android.material.navigation.NavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:id="@+id/navigationview"
-        app:headerLayout="@layout/headerfile"
-        app:menu="@menu/sidemenu"
-        android:layout_gravity="start"/>

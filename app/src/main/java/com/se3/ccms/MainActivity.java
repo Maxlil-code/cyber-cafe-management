@@ -1,5 +1,6 @@
 package com.se3.ccms;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -7,20 +8,18 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 import com.se3.ccms.databinding.ActivityMainBinding;
-
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,30 +39,44 @@ public class MainActivity extends AppCompatActivity {
         toggle.syncState();
 
 
+
+        navigationView.bringToFront();
+        navigationView.setCheckedItem(R.id.home_menu);
+
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.booking_menu:
+                        Intent intent = new Intent(MainActivity.this, bookActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.post_menu:
+                        Intent intent1 = new Intent(MainActivity.this, postActivity.class);
+                        startActivity(intent1);
+                        break;
+
+                    case R.id.about_menu:
+                        Intent intent3 = new Intent(MainActivity.this, aboutActivity.class);
+                        startActivity(intent3);
+                        break;
+
+                    case R.id.setting_menu:
+                        Intent intent2 = new Intent(MainActivity.this, settingsActivity.class);
+                        startActivity(intent2);
+                        break;
+
+                    case R.id.logout:
+                        Toast.makeText(MainActivity.this, "Logout succesfuly", Toast.LENGTH_SHORT).show();
+                        break;
+                }
+                return true;
+            }
+        });
     }
 
-    public void post(View view) {
-        startActivity(new Intent(this, postActivity.class));
-        Toast.makeText(this, "list of Posts", Toast.LENGTH_SHORT).show();
-        finish();
-    }
 
-    public void user(View view) {
-        startActivity(new Intent(this, MainActivity2.class));
-        Toast.makeText(this, "list of users", Toast.LENGTH_SHORT).show();
-        finish();
-    }
 
-    public void setting(View view) {
-        startActivity(new Intent(this, settingsActivity.class));
-        Toast.makeText(this, "Setting", Toast.LENGTH_SHORT).show();
-        finish();
-    }
-
-    public void reservation(View view) {
-        startActivity(new Intent(this, reservationActivity.class));
-        Toast.makeText(this, "Reservations", Toast.LENGTH_SHORT).show();
-        finish();
-    }
 }
 

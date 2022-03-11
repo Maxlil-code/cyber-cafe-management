@@ -15,6 +15,7 @@
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_account.xml" value="0.1335" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_add.xml" value="0.1675" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_add_img.xml" value="0.132" />
+        <entry key="..\:/CCMS/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.1905" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_back_arrow.xml" value="0.1935" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_back_img.xml" value="0.132" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_baseline_not_listed_location_24.xml" value="0.1935" />
@@ -38,6 +39,10 @@
         <entry key="..\:/CCMS/app/src/main/res/drawable/password.xml" value="0.1675" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/phone.xml" value="0.1675" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/share_vector.xml" value="0.1935" />
+        <entry key="..\:/CCMS/app/src/main/res/layout/activity_about.xml" value="0.22" />
+        <entry key="..\:/CCMS/app/src/main/res/layout/activity_book.xml" value="0.19010416666666666" />
+        <entry key="..\:/CCMS/app/src/main/res/layout/activity_book2.xml" value="0.25" />
+        <entry key="..\:/CCMS/app/src/main/res/layout/activity_book3.xml" value="0.2" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_contactus.xml" value="0.18" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_dashboard.xml" value="0.12047101449275362" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_help.xml" value="0.18" />
@@ -45,10 +50,10 @@
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_post.xml" value="0.1213768115942029" />
-        <entry key="..\:/CCMS/app/src/main/res/layout/activity_profil.xml" value="0.25" />
+        <entry key="..\:/CCMS/app/src/main/res/layout/activity_profil.xml" value="0.22" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_refreshments.xml" value="0.11594202898550725" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_register.xml" value="0.22" />
-        <entry key="..\:/CCMS/app/src/main/res/layout/activity_reservation.xml" value="0.2" />
+        <entry key="..\:/CCMS/app/src/main/res/layout/activity_reservation.xml" value="0.22" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_settings.xml" value="0.22" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />

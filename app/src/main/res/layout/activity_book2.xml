@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/book2"
+            android:layout_width="40sp"
+            android:layout_height="54sp"
+            android:onClick="book2"
+            android:src="@drawable/ic_back_arrow"
+            app:tint="@color/purple"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a Post"
+            android:textSize="35dp"
+            android:textColor="@color/purple"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available"
+                android:textSize="20dp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unavailable"
+                android:textSize="20dp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:layout_marginLeft="80dp"
+                android:checked="true"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="40dp">
+
+     <GridLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:alignmentMode="alignMargins">
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"
+                         android:checked="true"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:checked="true"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:checked="true"/>
+
+                 </LinearLayout>
+
+             </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="30dp">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"
+                         android:checked="true"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:checked="true"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:checked="true"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"/>
+
+
+                     <CheckBox
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:checked="true"/>
+
+                 </LinearLayout>
+
+             </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+
+     </GridLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="550dp"
+        android:onClick="next"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="10sp"
+            android:src="@drawable/ic_arrow_forward" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -17,13 +17,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".book3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".book2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".aboutActivity"
+            android:exported="false" />
+        <activity
             android:name=".profilActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".reservationActivity"
+            android:name=".bookActivity"
             android:exported="false" />
         <activity
             android:name=".postActivity"
@@ -47,7 +56,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".registerActivity"
+            android:name=".bookActivity"
             android:exported="false" />
         <activity
             android:name=".loginActivity"

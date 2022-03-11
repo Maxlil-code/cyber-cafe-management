@@ -7,15 +7,15 @@
     tools:context=".profilActivity">
 
     <LinearLayout
-        android:layout_width="411sp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
         android:background="@drawable/ic_launcher_background2">
 
 
         <ImageView
             android:id="@+id/back"
             android:layout_width="40sp"
-            android:layout_height="54sp"
+            android:layout_height="40sp"
             android:layout_marginLeft="10sp"
             android:onClick="users"
             android:src="@drawable/ic_back_arrow" />
@@ -27,12 +27,13 @@
             android:layout_marginTop="5sp"
             android:text="add user"
             android:textColor="@color/white"
-            android:textSize="35sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
     </LinearLayout>
 
     <TextView
+        android:id="@+id/profil_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60sp"
@@ -40,10 +41,24 @@
         android:textSize="20dp" />
 
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/profil_picture"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp">
+        android:layout_below="@+id/profil_text"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/user" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profil_picture"
+        android:layout_marginTop="10dp">
 
         <RelativeLayout
             android:layout_width="wrap_content"

@@ -16,5 +16,6 @@
 
     <string name="navigation_open">Open Navigation drawer</string>
     <string name="navigation_close">Close Navigation drawer</string>
+    <string name="about">it is an application created to satisfy all complains that have being recurrent to all clients of cyber cafes.</string>
 
 </resources>

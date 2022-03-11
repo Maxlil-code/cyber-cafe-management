@@ -59,15 +59,7 @@ public class MainActivity2 extends AppCompatActivity {
 
 
     }
-    public void user(View view){
-        startActivity(new Intent(this, MainActivity.class));
-        Toast.makeText(this, "Dashboard", Toast.LENGTH_SHORT).show();
-        finish();
-    }
 
-    public void add_user(View view){
-        startActivity(new Intent(this, profilActivity.class));
-        Toast.makeText(this, "settings", Toast.LENGTH_SHORT).show();
-        finish();
-    }
+
+
 }

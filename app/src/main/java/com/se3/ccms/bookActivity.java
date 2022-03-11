@@ -10,16 +10,14 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-public class registerActivity extends AppCompatActivity {
+public class bookActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
-
-        changeStatusBarColor();
-
+        setContentView(R.layout.activity_book);
     }
+
 
     public void changeStatusBarColor() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -30,15 +28,16 @@ public class registerActivity extends AppCompatActivity {
         }
     }
 
-    public void onLoginClick(View view) {
-        startActivity(new Intent(this, loginActivity.class));
-        overridePendingTransition(R.anim.slide_in_left, R.anim.stay);
+    public void book_continue(View view) {
+        startActivity(new Intent(this, book2Activity.class));
+        Toast.makeText(this, "Choose a Post", Toast.LENGTH_SHORT).show();
         finish();
     }
 
-    public void sign(View view) {
-        startActivity(new Intent(this, loginActivity.class));
-        Toast.makeText(this, "succesfully registered", Toast.LENGTH_SHORT).show();
+
+    public void book(View view) {
+        startActivity(new Intent(this, MainActivity.class));
+        Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show();
         finish();
     }
 
