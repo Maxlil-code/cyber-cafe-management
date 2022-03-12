@@ -41,8 +41,8 @@
         android:layout_below="@+id/about_bar">
 
         <ImageView
-            android:layout_width="400dp"
-            android:layout_height="300dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
             android:src="@drawable/about"/>
 
     </LinearLayout>
@@ -50,8 +50,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@+id/about_picture">
+        android:layout_below="@+id/about_picture"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
@@ -64,52 +64,52 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Created By:"
-            android:layout_marginTop="50dp"
             android:layout_marginLeft="10dp"
-            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:text="Created By:"
             android:textColor="@color/purple"
-            android:textStyle="bold"/>
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="textStart"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
             android:text="-MAX LILIAN"
+            android:textAlignment="textStart"
             android:textSize="15dp"
-            android:textStyle="bold"
-            android:layout_marginLeft="10sp"
-            android:layout_marginTop="10sp"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="textStart"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
             android:text="-MABOU FOTSO NICK KEVIN"
+            android:textAlignment="textStart"
             android:textSize="15dp"
-            android:textStyle="bold"
-            android:layout_marginLeft="10sp"
-            android:layout_marginTop="10sp"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="textStart"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
             android:text="-AJOUMOU BRANDON JUNIOR"
+            android:textAlignment="textStart"
             android:textSize="15dp"
-            android:textStyle="bold"
-            android:layout_marginLeft="10sp"
-            android:layout_marginTop="10sp"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="textStart"
-            android:text="-BAYEMI BEKOY"
-            android:textSize="15dp"
-            android:textStyle="bold"
             android:layout_marginLeft="10sp"
-            android:layout_marginTop="10sp"/>
+            android:layout_marginTop="10sp"
+            android:text="-BAYEMI BEKOY"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

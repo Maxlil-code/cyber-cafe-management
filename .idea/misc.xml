@@ -22,6 +22,7 @@
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.165" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_computer.xml" value="0.1335" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_country.xml" value="0.1675" />
+        <entry key="..\:/CCMS/app/src/main/res/drawable/ic_dark.xml" value="0.1915" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_fastfood.xml" value="0.1335" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_games.xml" value="0.1335" />
         <entry key="..\:/CCMS/app/src/main/res/drawable/ic_home.xml" value="0.1335" />
@@ -47,7 +48,7 @@
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_dashboard.xml" value="0.12047101449275362" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_help.xml" value="0.18" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/CCMS/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/CCMS/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_post.xml" value="0.1213768115942029" />
         <entry key="..\:/CCMS/app/src/main/res/layout/activity_profil.xml" value="0.22" />
@@ -63,6 +64,8 @@
         <entry key="..\:/CCMS/app/src/main/res/layout/content_main.xml" value="0.11594202898550725" />
         <entry key="..\:/CCMS/app/src/main/res/layout/headerfile.xml" value="0.19375" />
         <entry key="..\:/CCMS/app/src/main/res/layout/list_item.xml" value="0.25" />
+        <entry key="..\:/CCMS/app/src/main/res/layout/splashscreen.xml" value="0.19375" />
+        <entry key="..\:/CCMS/app/src/main/res/layout/ssplashfile.xml" value="0.19375" />
         <entry key="..\:/CCMS/app/src/main/res/menu/menu_main.xml" value="0.25" />
         <entry key="..\:/CCMS/app/src/main/res/menu/navigation.xml" value="0.19375" />
         <entry key="..\:/CCMS/app/src/main/res/menu/sidemenu.xml" value="0.2724609375" />

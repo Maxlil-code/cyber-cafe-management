@@ -56,9 +56,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".bookActivity"
-            android:exported="false" />
-        <activity
             android:name=".loginActivity"
             android:exported="false" />
     </application>

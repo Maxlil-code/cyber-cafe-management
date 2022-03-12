@@ -13,6 +13,7 @@ public class postActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post);
+
     }
 
     public void post(View view){
