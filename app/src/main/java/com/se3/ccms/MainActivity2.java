@@ -1,16 +1,14 @@
 package com.se3.ccms;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Toast;
 
+import com.se3.ccms.adapters.ListAdapter;
 import com.se3.ccms.databinding.ActivityMain2Binding;
-import com.se3.ccms.databinding.ActivityMainBinding;
 
 import java.util.ArrayList;
 

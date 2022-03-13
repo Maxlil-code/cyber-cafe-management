@@ -20,7 +20,7 @@
                 android:layout_height="77dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="93dp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/ic_launcher_foreground2" />
 
         </FrameLayout>
 
@@ -78,13 +78,13 @@
                 android:background="@android:color/transparent"
                 android:fontFamily="@font/poppins_regular"
                 android:hint="Password"
-                android:textColorHint="@color/black"
                 android:inputType="textPassword"
                 android:maxLength="10"
                 android:maxLines="1"
                 android:paddingLeft="17dp"
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
+                android:textColorHint="@color/black"
                 android:textCursorDrawable="@drawable/cursor_color"
                 android:textSize="12sp" />
 
@@ -100,6 +100,7 @@
         </RelativeLayout>
 
         <TextView
+            android:id="@+id/loginbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -149,7 +150,7 @@
                 android:gravity="center_horizontal"
                 android:text="or"
                 android:textColor="#AEAEAE"
-                android:textSize="13.3sp"/>
+                android:textSize="13.3sp" />
 
         </LinearLayout>
 
@@ -159,23 +160,24 @@
             android:layout_marginBottom="35dp"
             android:gravity="center"
             android:orientation="horizontal">
-            
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/fb"/>
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginRight="20dp"
+                android:src="@drawable/fb" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
-                android:src="@drawable/google"/>
+                android:layout_marginRight="20dp"
+                android:src="@drawable/google" />
 
         </LinearLayout>
     </LinearLayout>
 
     <ImageView
+        android:id="@+id/imageview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"

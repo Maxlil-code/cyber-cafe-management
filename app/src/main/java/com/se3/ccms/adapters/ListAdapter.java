@@ -1,4 +1,4 @@
-package com.se3.ccms;
+package com.se3.ccms.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.se3.ccms.R;
+import com.se3.ccms.User;
 
 import java.util.ArrayList;
 
@@ -38,10 +41,10 @@ public class ListAdapter extends ArrayAdapter<User>{
         TextView lastMsg = convertView.findViewById(R.id.lastmessage);
         TextView time = convertView.findViewById(R.id.msgtime);
 
-        imageView.setImageResource(user.imageId);
-        userName.setText(user.name);
-        lastMsg.setText(user.lastMessage);
-        time.setText(user.lastMsgTime);
+        imageView.setImageResource(user.getImageId());
+        userName.setText(user.getName());
+        lastMsg.setText(user.getLastMsgTime());
+        time.setText(user.getLastMessage());
 
 
 

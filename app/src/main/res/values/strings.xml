@@ -18,5 +18,6 @@
     <string name="navigation_close">Close Navigation drawer</string>
     <string name="about">SpeedC is an application created to satisfy all complains that have being recurrent to all clients of cyber cafes.</string>
     <string name="main">SpeedC propose you the capacity to book a post(computer) for a given time and also at reasonable prices.</string>
+    <string name="todo">TODO</string>
 
 </resources>
